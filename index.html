@@ -14,24 +14,37 @@
 
     <div class="container">
 
+        <!-- header section start her -->
         <header class="p-3 bg-primary">
             <div class="row">
                 <div class="col-lg-5">
                     <a href="#"><h1 class="text-light">Mansa Academy</h1></a>
                 </div>
                 <div class="col-lg-7">
-                    <ul class="nav justify-content-end">
+                    <ul class="nav justify-content-end smooth-scroll">
                         <li class="nav-item"><a class="nav-link text-light" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </header>
+        <!-- header section end her -->
 
         <main>
+
+            <!-- slide section start her -->
+            <div class="slide_section" style="background-image:url(./img/bg.jpg); height: 100vh; background-repeat: no-repeat; background-size: cover;">
+                <div class="row">
+                    <div class="col"></div>
+                </div>
+
+            </div>
+            <!-- slide section end her -->
+
             <!-- services section start hear -->
-            <div class="services_section">
+            <div id="services" class="services_section my-3">
                 <div class="services_title py-3  text-center text-dark bg-light">
                     <h3 class="font-weight-bolder">Services</h3>
                 </div>
@@ -66,12 +79,12 @@
              <!-- services section end hear -->
 
 
-            <!-- about section start hear -->
-            <div class="row pt-5">
+            <!-- about me section start hear -->
+            <div id="about" class="row pt-5">
                 <div class="clo-lg-4  ">
                     <img src="./img/profile pic.jpg " class=" rounded-circle text-md-center" style="width:15rem; height: 15rem; display: block;" alt="">
                 </div>
-                <div class="col-lg-8 col-sm-12 ">
+                <div class="col-lg-8 col-sm-12 mx-5 ">
                     <h3 class="font-wight-bolder">About Me</h3>
                     <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deserunt facilis qui! At velit id ducimus? Tempore accusamus rem aliquam autem excepturi maiores porro! Doloremque iure, laboriosam, amet mollitia inventore distinctio, consequatur optio pariatur sapiente temporibus quasi libero maxime commodi provident quis iste rerum sit eum explicabo. Iure beatae quisquam alias veritatis, consequuntur corporis ut tempora amet enim delectus praesentium voluptate quo eius atque consectetur corrupti sequi culpa temporibus quas aspernatur cumque, saepe odio. Iure, facilis porro! Quod asperiores eaque minima deserunt itaque, voluptas fuga, amet quisquam ducimus labore facere incidunt tempore perferendis odit nemo doloremque officia ut? Fugit, sit.</p>
                     <a href="#demo" data-toggle="collapse">learn More</a>
@@ -83,13 +96,33 @@
             </div>
             <!-- about section end hear -->
 
+            <!-- toggleable dynamic tab start hear -->
+            <div class="other-section my-5">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item"><a data-toggle="pill" class="nav-link active show" href="#dev">Developer</a></li>
+                            <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#des">Designer</a></li>
+                            <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#mar">Markter</a></li>
+                        </ul>
+
+                        <div class="tab-content my-3">
+                            <div id="dev" class="tab-pane fade active show"><p>1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas tempora repudiandae laborum culpa possimus?</p></div>
+                            <div id="des" class="tab-pane fade"><p>2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas tempora repudiandae laborum culpa possimus?</p></div>
+                            <div id="mar" class="tab-pane fade"><p>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas tempora repudiandae laborum culpa possimus?</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- toggleable dynamic tab end hear -->
+
             <!-- customer review section start hear -->
             <div class="customer_review text-left text-md-center">
                 <div class="title bg-light my-3">
                     <h3 class="font-weight-bolder">Customer review</h3>
                 </div>
 
-                <div class="row">
+                <div class="row my-5">
                     <div class="col-lg-4 col-sm-12 ">
                         <i class="fa-3x my-3 bg-dark p-3 rounded-circle text-light fa-solid fa-user"></i>
                     <p class="small text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dolores ipsa deleniti ullam modi. Est laudantium ea voluptas! Eligendi, corrupti. <abbr title="Bootstarp4">bts4</abbr> </p>
@@ -121,11 +154,11 @@
 
             
             <!-- button section start hear -->
-            <button class="btn btn-outline-primary btn-lg btn-block">CD Download</button>
+            <button class="btn btn-outline-primary btn-lg btn-block my-3">CD Download</button>
             <button class="btn btn-outline-primary btn-lg">CD Download</button>
             <a href="#" class="btn btn-outline-primary btn-md">viset my chanel</a>
 
-            <div class="btn-group my-5">
+            <div class="btn-group my-3">
                 <button class="btn btn-outline-primary  ">Click Me</button>
             <button class="btn btn-outline-primary  ">Click Me</button>
             <button class="btn btn-outline-primary  ">Click Me</button>
@@ -159,7 +192,6 @@
         </footer>
         <!-- pagination section end hear -->
 
-        
     </div>
 
     
